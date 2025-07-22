@@ -45,7 +45,16 @@ composer install
 cp .env.example .env
 
 ### 4. Configurar la base de datos en .env
-<pre> ```env DB_CONNECTION=mysql DB_HOST=127.0.0.1 DB_PORT=3306 DB_DATABASE=bolsillo_pro DB_USERNAME=root DB_PASSWORD= ``` </pre>
+### 4. Configurar la base de datos en .env
+
+```env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=bolsillo_pro
+DB_USERNAME=root
+DB_PASSWORD=
+
 
 ### 5. Generar clave de la aplicación
 
