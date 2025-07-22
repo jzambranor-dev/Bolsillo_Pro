@@ -35,25 +35,17 @@ Sigue estos pasos para instalar Bolsillo Pro en tu máquina local:
 
 ### 1. Clonar el repositorio
 
-git clone https://tuservidor.com/Bolsillo_Pro.git
+git clone https://github.com/jzambranor-dev/Bolsillo_Pro.git
 cd Bolsillo_Pro
-composer install
 
 ### 2. Instalar dependencias de PHP
-bash
-Copiar
-Editar
+composer install
 
 ### 3. Crear archivo de configuración
 cp .env.example .env
 
 ### 4. Configurar la base de datos en .env
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=bolsillo_pro
-DB_USERNAME=root
-DB_PASSWORD=
+<pre> ```env DB_CONNECTION=mysql DB_HOST=127.0.0.1 DB_PORT=3306 DB_DATABASE=bolsillo_pro DB_USERNAME=root DB_PASSWORD= ``` </pre>
 
 ### 5. Generar clave de la aplicación
 
