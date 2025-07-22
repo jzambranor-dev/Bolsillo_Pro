@@ -13,7 +13,7 @@
                 <div class="card-body pe-md-0">
                     <div class="row align-items-center gx-0 gy-7">
                         <div class="col-auto bg-body-highlight dark__bg-gray-1100 rounded-3 position-relative overflow-hidden auth-title-box">
-                            <div class="bg-holder" style="background-image:url(../resources/phoenix/media/38.png);"></div>
+                            <div class="bg-holder"></div>
                             <!--/.bg-holder-->
                             <div class="position-relative px-4 px-lg-7 pt-7 pb-7 pb-sm-5 text-center text-md-start pb-lg-7 card-sign-up">
                                 <h3 class="mb-3 text-body-emphasis fs-7">Phoenix Authentication</h3>
