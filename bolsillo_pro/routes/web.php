@@ -9,3 +9,8 @@ Route::get('/', function () {
 Route::get('/home', function () {
     return view('home');
 })->name('home');
+
+
+Route::fallback(function () {
+    return response()->view('errors.404', [], 404);
+});
