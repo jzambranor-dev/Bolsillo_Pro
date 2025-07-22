@@ -75,6 +75,7 @@ php artisan migrate
 ```
 
 ### 7. Levantar el servidor local
+
 ```env
 php artisan serve
 ```
