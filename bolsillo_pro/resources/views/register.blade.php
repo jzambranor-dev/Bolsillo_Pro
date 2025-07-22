@@ -5,7 +5,7 @@
 @section('content')
 
 <div class="container-fluid bg-body-tertiary dark__bg-gray-1200">
-<div class="bg-holder" style="background-image: url('{{ asset('phoenix/media/bg-3.jpg') }}');"></div>
+<div class="bg-holder" style="background-image: url('http://127.0.0.1:8000/phoenix/media/bg-3.jpg');">
     <!--/.bg-holder-->
     <div class="row flex-center position-relative min-vh-100 g-0 py-5">
         <div class="col-11 col-sm-10 col-xl-8">
