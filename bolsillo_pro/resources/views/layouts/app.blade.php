@@ -5,11 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title', 'Mi App')</title>
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
 
     {{-- CSS de Bootstrap o el que uses --}}
     <!-- ===============================================-->
-   
-    
+
+
     <link href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="https://prium.github.io/phoenix/v1.23.0/assets/img/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="https://prium.github.io/phoenix/v1.23.0/assets/img/favicons/favicon-32x32.png">
@@ -17,22 +19,25 @@
     <link rel="shortcut icon" type="image/x-icon" href="https://prium.github.io/phoenix/v1.23.0/assets/img/favicons/favicon.ico">
     <link rel="manifest" href="https://prium.github.io/phoenix/v1.23.0/assets/img/favicons/manifest.json">
     <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="../resources/phoenix/css/template.css">
-    <script src="../resources/phoenix/js/simplebar.min.js"></script>
-    <script src="../resources/phoenix/js/config.js"></script>
+    <link rel="stylesheet" href="{{ asset('phoenix/css/template.css')}}">
+    <script src="{{ asset('phoenix/js/simplebar.min.js')}}">
+    </script>
+    <script src="{{ asset('phoenix/js/config.js')}}"></script>
+
+
 
     <!-- =============================================== -->
     <!--    Stylesheets-->
     <!-- ===============================================-->
     <link rel="preconnect" href="https://fonts.googleapis.com/">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
-    <link href="../resources/phoenix/css/css2" rel="stylesheet">
-    <link href="../resources/phoenix/css/simplebar.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="../resources/phoenix/css/line.css">
-    <link href="../resources/phoenix/css/theme-rtl.min.css" type="text/css" rel="stylesheet" id="style-rtl" disabled="true">
-    <link href="../resources/phoenix/css/theme.min.css" type="text/css" rel="stylesheet" id="style-default">
-    <link href="../resources/phoenix/css/user-rtl.min.css" type="text/css" rel="stylesheet" id="user-style-rtl" disabled="true">
-    <link href="../resources/phoenix/css/user.min.css" type="text/css" rel="stylesheet" id="user-style-default">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="{{ asset('phoenix/css/template.css') }}" rel="stylesheet">
+    <link href="{{ asset('phoenix/css/simplebar.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('phoenix/css/line.css') }}" rel="stylesheet">
+    <link href="{{ asset('phoenix/css/theme-rtl.min.css') }}" rel="stylesheet" id="style-rtl" disabled>
+    <link href="{{ asset('phoenix/css/theme.min.css') }}" rel="stylesheet" id="style-default">
+    <link href="{{ asset('phoenix/css/user-rtl.min.css') }}" rel="stylesheet" id="user-style-rtl" disabled>
+    <link href="{{ asset('phoenix/css/user.min.css') }}" rel="stylesheet" id="user-style-default">
 
     <script>
         var phoenixIsRTL = window.config.config.phoenixIsRTL;
@@ -67,16 +72,17 @@
 
     {{-- Scripts comunes --}}
 
-    <script src="../resources/phoenix/js/popper.min.js"></script>
-    <script src="../resources/phoenix/js/bootstrap.min.js"></script>
-    <script src="../resources/phoenix/js/anchor.min.js"></script>
-    <script src="../resources/phoenix/js/is.min.js"></script>
-    <script src="../resources/phoenix/js/all.min.js"></script>
-    <script src="../resources/phoenix/js/lodash.min.js"></script>
-    <script src="../resources/phoenix/js/list.min.js"></script>
-    <script src="../resources/phoenix/js/feather.min.js"></script>
-    <script src="../resources/phoenix/js/dayjs.min.js"></script>
-    <script src="../resources/phoenix/js/phoenix.js"></script>
+    <script src="{{ asset('phoenix/js/popper.min.js') }}"></script>
+    <script src="{{ asset('phoenix/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('phoenix/js/anchor.min.js') }}"></script>
+    <script src="{{ asset('phoenix/js/is.min.js') }}"></script>
+    <script src="{{ asset('phoenix/js/all.min.js') }}"></script>
+    <script src="{{ asset('phoenix/js/lodash.min.js') }}"></script>
+    <script src="{{ asset('phoenix/js/list.min.js') }}"></script>
+    <script src="{{ asset('phoenix/js/feather.min.js') }}"></script>
+    <script src="{{ asset('phoenix/js/dayjs.min.js') }}"></script>
+    <script src="{{ asset('phoenix/js/phoenix.js') }}"></script>
+
 
     @stack('scripts') {{-- Para scripts específicos de cada vista --}}
 </body>

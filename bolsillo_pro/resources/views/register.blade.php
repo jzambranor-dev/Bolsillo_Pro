@@ -5,7 +5,7 @@
 @section('content')
 
 <div class="container-fluid bg-body-tertiary dark__bg-gray-1200">
-    <div class="bg-holder" style="background-image:url(../resources/phoenix/media/bg-3.jpg);"></div>
+<div class="bg-holder" style="background-image: url('{{ asset('phoenix/media/bg-3.jpg') }}');"></div>
     <!--/.bg-holder-->
     <div class="row flex-center position-relative min-vh-100 g-0 py-5">
         <div class="col-11 col-sm-10 col-xl-8">
@@ -24,12 +24,12 @@
                                     <li class="d-flex align-items-center"><span class="uil uil-check-circle text-success me-2"></span><span class="text-body-tertiary fw-semibold">Responsive</span></li>
                                 </ul>
                             </div>
-                            <div class="position-relative z-n1 mb-6 d-none d-md-block text-center mt-md-15"><img class="auth-title-box-img d-dark-none" src="../resources/phoenix/media/auth.png" alt=""><img class="auth-title-box-img d-light-none" src="../resources/phoenix/media/auth-dark.png" alt=""></div>
+                            <div class="position-relative z-n1 mb-6 d-none d-md-block text-center mt-md-15"><img class="auth-title-box-img d-dark-none" src="{{ ('phoenix/media/auth.png') }}" alt=""><img class="auth-title-box-img d-light-none" src="{{ ('phoenix/media/auth-dark.png') }}" alt=""></div>
                         </div>
                         <div class="col mx-auto">
                             <div class="auth-form-box">
                                 <div class="text-center mb-7"><a class="d-flex flex-center text-decoration-none mb-4" href="https://prium.github.io/phoenix/v1.23.0/index.html">
-                                        <div class="d-flex align-items-center fw-bolder fs-3 d-inline-block"><img src="../resources/phoenix/media/logo.png" alt="phoenix" width="58"></div>
+                                        <div class="d-flex align-items-center fw-bolder fs-3 d-inline-block"><img src="{{ ('phoenix/media/logo.png') }}" alt="phoenix" width="58"></div>
                                     </a>
                                     <h3 class="text-body-highlight">Sign Up</h3>
                                     <p class="text-body-tertiary">Create your account today</p>

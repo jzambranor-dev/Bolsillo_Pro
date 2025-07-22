@@ -5,7 +5,7 @@
 @section('content')
 
 <div class="container-fluid bg-body-tertiary dark__bg-gray-1200">
-    <div class="bg-holder" style="background-image:url(../resources/phoenix/media/bg-3.jpg);"></div>
+    <div class="bg-holder" style="background-image: url('{{ asset('phoenix/media/bg-3.jpg') }}');"></div>
     <!--/.bg-holder-->
     <div class="row flex-center position-relative min-vh-100 g-0 py-5">
         <div class="col-11 col-sm-10 col-xl-8">
@@ -24,12 +24,12 @@
                                     <li class="d-flex align-items-center"><span class="uil uil-check-circle text-success me-2"></span><span class="text-body-tertiary fw-semibold">Responsive</span></li>
                                 </ul>
                             </div>
-                            <div class="position-relative z-n1 mb-6 d-none d-md-block text-center mt-md-15"><img class="auth-title-box-img d-dark-none" src="../resources/phoenix/media/auth.png" alt=""><img class="auth-title-box-img d-light-none" src="../resources/phoenix/media/auth-dark.png" alt=""></div>
+                            <div class="position-relative z-n1 mb-6 d-none d-md-block text-center mt-md-15"><img class="auth-title-box-img d-dark-none" src="{{ asset('phoenix/media/auth.png')}}" alt=""><img class="auth-title-box-img d-light-none" src="{{ asset('phoenix/media/auth-dark.png')}}" alt=""></div>
                         </div>
                         <div class="col mx-auto">
                             <div class="auth-form-box">
                                 <div class="text-center mb-7"><a class="d-flex flex-center text-decoration-none mb-4" href="https://prium.github.io/phoenix/v1.23.0/index.html">
-                                        <div class="d-flex align-items-center fw-bolder fs-3 d-inline-block"><img src="../resources/phoenix/media/logo.png" alt="phoenix" width="58"></div>
+                                        <div class="d-flex align-items-center fw-bolder fs-3 d-inline-block"><img src="{{ asset('phoenix/media/logo.png') }}" alt="phoenix" width="58"></div>
                                     </a>
                                     <h3 class="text-body-highlight">Sign In</h3>
                                     <p class="text-body-tertiary">Get access to your account</p>
@@ -43,21 +43,28 @@
                                     <div class="divider-content-center bg-body-emphasis">or use email</div>
                                 </div>
                                 <div class="mb-3 text-start"><label class="form-label" for="email">Email address</label>
-                                    <div class="form-icon-container"><input class="form-control form-icon-input" id="email" type="email" placeholder="name@example.com"><svg class="svg-inline--fa fa-user form-icon fs-9 text-body" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="user" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                                    <div class="form-icon-container">
+                                        <input class="form-control form-icon-input" id="email" type="email" placeholder="name@example.com">
+                                        <svg class="svg-inline--fa fa-user form-icon fs-9 text-body" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="user" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
                                             <path fill="currentColor" d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0z"></path>
-                                        </svg><!-- <span class="fas fa-user text-body fs-9 form-icon"></span> Font Awesome fontawesome.com --></div>
+                                        </svg><!-- <span class="fas fa-user text-body fs-9 form-icon"></span> Font Awesome fontawesome.com -->
+                                    </div>
                                 </div>
                                 <div class="mb-3 text-start"><label class="form-label" for="password">Password</label>
-                                    <div class="form-icon-container" data-password="data-password"><input class="form-control form-icon-input pe-6" id="password" type="password" placeholder="Password" data-password-input="data-password-input"><svg class="svg-inline--fa fa-key form-icon fs-9 text-body" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="key" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                    <div class="form-icon-container" data-password="data-password">
+                                        <input class="form-control form-icon-input pe-6" id="password" type="password" placeholder="Password" data-password-input="data-password-input">
+                                        <svg class="svg-inline--fa fa-key form-icon fs-9 text-body" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="key" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
                                             <path fill="currentColor" d="M336 352c97.2 0 176-78.8 176-176S433.2 0 336 0S160 78.8 160 176c0 18.7 2.9 36.8 8.3 53.7L7 391c-4.5 4.5-7 10.6-7 17l0 80c0 13.3 10.7 24 24 24l80 0c13.3 0 24-10.7 24-24l0-40 40 0c13.3 0 24-10.7 24-24l0-40 40 0c6.4 0 12.5-2.5 17-7l33.3-33.3c16.9 5.4 35 8.3 53.7 8.3zM376 96a40 40 0 1 1 0 80 40 40 0 1 1 0-80z"></path>
-                                        </svg><!-- <span class="fas fa-key text-body fs-9 form-icon"></span> Font Awesome fontawesome.com --><button class="btn px-3 py-0 h-100 position-absolute top-0 end-0 fs-7 text-body-tertiary" data-password-toggle="data-password-toggle"><span class="uil uil-eye show"></span><span class="uil uil-eye-slash hide"></span></button></div>
+                                        </svg><!-- <span class="fas fa-key text-body fs-9 form-icon"></span> Font Awesome fontawesome.com --><button class="btn px-3 py-0 h-100 position-absolute top-0 end-0 fs-7 text-body-tertiary" data-password-toggle="data-password-toggle"><span class="uil uil-eye show"></span><span class="uil uil-eye-slash hide"></span></button>
+                                    </div>
                                 </div>
                                 <div class="row flex-between-center mb-7">
                                     <div class="col-auto">
                                         <div class="form-check mb-0"><input class="form-check-input" id="basic-checkbox" type="checkbox" checked="checked"><label class="form-check-label mb-0" for="basic-checkbox">Remember me</label></div>
                                     </div>
-                                    <div class="col-auto"><a class="fs-9 fw-semibold" href="https://prium.github.io/phoenix/v1.23.0/pages/authentication/card/forgot-password.html">Forgot Password?</a></div>
-                                </div><button class="btn btn-primary w-100 mb-3">Sign In</button>
+                                    <div class="col-auto"><a class="fs-9 fw-semibold" href="#">Forgot Password?</a></div>
+                                </div>
+                                <button class="btn btn-primary w-100 mb-3" id="loginBtn">Sign In</button>
                                 <div class="text-center"><a class="fs-9 fw-bold" href="{{ route('register') }}">Create an account</a></div>
                             </div>
                         </div>
@@ -67,5 +74,11 @@
         </div>
     </div>
 </div>
+
+
+
+@push('scripts')
+<script src="{{ asset('js/Auth/login_auth.js') }}"></script>
+@endpush
 
 @endsection
