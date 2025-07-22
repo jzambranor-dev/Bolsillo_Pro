@@ -42,17 +42,19 @@
                                     <hr class="bg-body-secondary mt-5 mb-4">
                                     <div class="divider-content-center bg-body-emphasis">or use email</div>
                                 </div>
-                                <div class="mb-3 text-start"><label class="form-label" for="email">Email address</label>
+                                <div class="mb-3 text-start">
+                                    <label class="form-label" for="email">Email address</label>
                                     <div class="form-icon-container">
-                                        <input class="form-control form-icon-input" id="email" type="email" placeholder="name@example.com">
+                                        <input class="form-control form-icon-input" id="email" type="email" placeholder="name@example.com" require>
                                         <svg class="svg-inline--fa fa-user form-icon fs-9 text-body" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="user" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
                                             <path fill="currentColor" d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0z"></path>
                                         </svg><!-- <span class="fas fa-user text-body fs-9 form-icon"></span> Font Awesome fontawesome.com -->
                                     </div>
                                 </div>
-                                <div class="mb-3 text-start"><label class="form-label" for="password">Password</label>
+                                <div class="mb-3 text-start">
+                                    <label class="form-label" for="password">Password</label>
                                     <div class="form-icon-container" data-password="data-password">
-                                        <input class="form-control form-icon-input pe-6" id="password" type="password" placeholder="Password" data-password-input="data-password-input">
+                                        <input class="form-control form-icon-input pe-6" id="password" type="password" placeholder="Password" data-password-input="data-password-input" require>
                                         <svg class="svg-inline--fa fa-key form-icon fs-9 text-body" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="key" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
                                             <path fill="currentColor" d="M336 352c97.2 0 176-78.8 176-176S433.2 0 336 0S160 78.8 160 176c0 18.7 2.9 36.8 8.3 53.7L7 391c-4.5 4.5-7 10.6-7 17l0 80c0 13.3 10.7 24 24 24l80 0c13.3 0 24-10.7 24-24l0-40 40 0c13.3 0 24-10.7 24-24l0-40 40 0c6.4 0 12.5-2.5 17-7l33.3-33.3c16.9 5.4 35 8.3 53.7 8.3zM376 96a40 40 0 1 1 0 80 40 40 0 1 1 0-80z"></path>
                                         </svg><!-- <span class="fas fa-key text-body fs-9 form-icon"></span> Font Awesome fontawesome.com --><button class="btn px-3 py-0 h-100 position-absolute top-0 end-0 fs-7 text-body-tertiary" data-password-toggle="data-password-toggle"><span class="uil uil-eye show"></span><span class="uil uil-eye-slash hide"></span></button>
