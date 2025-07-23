@@ -36,4 +36,14 @@ class LoginController extends Controller
         // Login fallido
         return response()->json(['message' => 'Credenciales inválidas'], 401);
     }
+
+    public function logout(Request $request)
+    {
+        Auth::logout(); // Cierra sesión del usuario autenticado
+
+        $request->session()->invalidate(); // Invalida la sesión actual
+        $request->session()->regenerateToken(); // Regenera el token CSRF para seguridad
+
+        return response()->json(['message' => 'Logout exitoso']);
+    }
 }

@@ -12,5 +12,13 @@ Route::get('/register', function () {return view('register');})->name('register'
 Route::fallback(function () {return response()->view('errors.404', [], 404);})->name('error.404');
 
 
+//Peticiones de autenticación
 Route::post('/login', [LoginController::class, 'login']);
 Route::post('/register', [RegisterController::class, 'register']);
+
+// Rutas protegidas
+
+Route::middleware(['auth'])->group(function () {
+    Route::get('/dashboard', function () {return view('dashboard');})->name('dashboard');
+    Route::post('/logout', [LoginController::class, 'logout'])->name('logout');
+});

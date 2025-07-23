@@ -1,3 +1,8 @@
+@if(auth()->check())
+<script>
+    window.location.href = "{{ url('/dashboard') }}";
+</script>
+@endif
 @extends('layouts.app')
 
 @section('title', 'Bolsillo Pro | Register')

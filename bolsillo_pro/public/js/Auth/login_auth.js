@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             if (response.ok) {
                 alert('✅ ' + data.message);
-                window.location.href = '/'; // cambia a donde quieras redirigir
+                window.location.href = '/dashboard'; // cambia a donde quieras redirigir
             } else {
                 alert('❌ ' + data.message);
             }
