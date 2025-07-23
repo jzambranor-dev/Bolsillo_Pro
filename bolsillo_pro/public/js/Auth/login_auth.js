@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const password = document.getElementById('password').value;
 
         try {
-            const response = await fetch('/api/login', {
+            const response = await fetch('/login', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -19,7 +19,8 @@ document.addEventListener('DOMContentLoaded', function () {
                     'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').getAttribute('content')
 
                 },
-                body: JSON.stringify({ email, password })
+                body: JSON.stringify({ email, password }),
+                credentials: 'same-origin'
             });
 
             const data = await response.json();

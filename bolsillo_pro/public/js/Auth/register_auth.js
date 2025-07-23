@@ -5,7 +5,7 @@ document.getElementById('registerBtn').addEventListener('click', async () => {
     const passwordConfirmation = document.getElementById('password_confirmation').value;
 
     try {
-        const response = await fetch('/api/register', {
+        const response = await fetch('/register', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

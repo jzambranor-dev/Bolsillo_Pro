@@ -17,7 +17,10 @@ class LoginController extends Controller
             'password' => 'required|min:6',
         ]);
 
-        Log::info('Intento de login', ['email' => $request->email]);
+        Log::info('Intento de login', [
+            'email' => $request->email,
+            'password_ingresada' => $request->password // 👈 Aquí verás la contraseña ingresada
+        ]);
 
         // Intentar login con Auth
         if (Auth::attempt($credentials)) {
