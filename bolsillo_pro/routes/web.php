@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\Auth\RegisterController;
+use App\Http\Controllers\DashboardController;
 
 // Rutas de la web
 Route::get('/', function () {return redirect()->route('login');});
@@ -19,6 +20,7 @@ Route::post('/register', [RegisterController::class, 'register']);
 // Rutas protegidas
 
 Route::middleware(['auth'])->group(function () {
-    Route::get('/dashboard', function () {return view('dashboard');})->name('dashboard');
+    Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
+    Route::get('/dashboard/module/{module}', [DashboardController::class, 'loadModule'])->name('dashboard.module');
     Route::post('/logout', [LoginController::class, 'logout'])->name('logout');
 });

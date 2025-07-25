@@ -1,4 +1,3 @@
-
 <nav class="navbar navbar-vertical navbar-expand-lg" data-navbar-appearance="darker">
   <div class="navbar-collapse collapse" id="navbarVerticalCollapse">
     <!-- scrollbar removed-->
@@ -7,73 +6,19 @@
         <li class="nav-item">
           <!-- parent pages-->
           <div class="nav-item-wrapper">
-            <a class="nav-link dropdown-indicator label-1 collapsed" href="https://prium.github.io/phoenix/v1.23.0/index.html#nv-home" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="nv-home">
+            <a class="nav-link label-1 module-link" href="#" role="button" data-module="create-user">
               <div class="d-flex align-items-center">
-                <div class="dropdown-indicator-icon-wrapper">
-                  <svg class="svg-inline--fa fa-caret-right dropdown-indicator-icon" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg="">
-                    <path fill="currentColor" d="M246.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-9.2-9.2-22.9-11.9-34.9-6.9s-19.8 16.6-19.8 29.6l0 256c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l128-128z"></path>
-                  </svg><!-- <span class="fas fa-caret-right dropdown-indicator-icon"></span> Font Awesome fontawesome.com -->
-                </div>
                 <span class="nav-link-icon">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-pie-chart">
                     <path d="M21.21 15.89A10 10 0 1 1 8 2.83"></path>
                     <path d="M22 12A10 10 0 0 0 12 2v10z"></path>
                   </svg>
                 </span>
-                <span class="nav-link-text">Home</span>
+                <span class="nav-link-text">Administrar Usuarios</span>
               </div>
             </a>
-            <div class="parent-wrapper label-1">
-              <ul class="nav parent collapse" data-bs-parent="#navbarVerticalCollapse" id="nv-home">
-                <li class="collapsed-nav-item-title d-none">Home</li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="https://prium.github.io/phoenix/v1.23.0/index.html">
-                    <div class="d-flex align-items-center">
-                      <span class="nav-link-text">E commerce</span>
-                    </div>
-                  </a><!-- more inner pages-->
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="https://prium.github.io/phoenix/v1.23.0/dashboard/project-management.html">
-                    <div class="d-flex align-items-center">
-                      <span class="nav-link-text">Project management</span>
-                    </div>
-                  </a><!-- more inner pages-->
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="https://prium.github.io/phoenix/v1.23.0/dashboard/crm.html">
-                    <div class="d-flex align-items-center">
-                      <span class="nav-link-text">CRM</span>
-                    </div>
-                  </a><!-- more inner pages-->
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="https://prium.github.io/phoenix/v1.23.0/dashboard/travel-agency.html">
-                    <div class="d-flex align-items-center">
-                      <span class="nav-link-text">Travel agency</span>
-                    </div>
-                  </a><!-- more inner pages-->
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="https://prium.github.io/phoenix/v1.23.0/dashboard/stock.html">
-                    <div class="d-flex align-items-center">
-                      <span class="nav-link-text">Stock</span>
-                      <span class="badge ms-2 badge badge-phoenix badge-phoenix-warning ">new</span>
-                    </div>
-                  </a><!-- more inner pages-->
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="https://prium.github.io/phoenix/v1.23.0/apps/social/feed.html">
-                    <div class="d-flex align-items-center">
-                      <span class="nav-link-text">Social feed</span>
-                    </div>
-                  </a><!-- more inner pages-->
-                </li>
-              </ul>
-            </div>
           </div>
         </li>
-   
       </ul>
     </div>
   </div>
@@ -389,7 +334,7 @@
                               <div class="dropdown notification-dropdown"><button class="btn fs-10 btn-sm dropdown-toggle dropdown-caret-none transition-none" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><svg class="svg-inline--fa fa-ellipsis fs-10 text-body" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="ellipsis" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
                                     <path fill="currentColor" d="M8 256a56 56 0 1 1 112 0A56 56 0 1 1 8 256zm160 0a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm216-56a56 56 0 1 1 0 112 56 56 0 1 1 0-112z"></path>
                                   </svg><!-- <span class="fas fa-ellipsis-h fs-10 text-body"></span> Font Awesome fontawesome.com --></button>
-                                <div class="dropdown-menu py-2"><a class="dropdown-item" href="https://prium.github.io/phoenix/v1.23.0/index.html#!">Mark as unread</a></div>
+                                <div class="dropdown-menu py-2"><a class="dropdown-item" href="#">Mark as unread</a></div>
                               </div>
                             </div>
                           </div>
@@ -410,7 +355,7 @@
                               <div class="dropdown notification-dropdown"><button class="btn fs-10 btn-sm dropdown-toggle dropdown-caret-none transition-none" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><svg class="svg-inline--fa fa-ellipsis fs-10 text-body" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="ellipsis" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
                                     <path fill="currentColor" d="M8 256a56 56 0 1 1 112 0A56 56 0 1 1 8 256zm160 0a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm216-56a56 56 0 1 1 0 112 56 56 0 1 1 0-112z"></path>
                                   </svg><!-- <span class="fas fa-ellipsis-h fs-10 text-body"></span> Font Awesome fontawesome.com --></button>
-                                <div class="dropdown-menu py-2"><a class="dropdown-item" href="https://prium.github.io/phoenix/v1.23.0/index.html#!">Mark as unread</a></div>
+                                <div class="dropdown-menu py-2"><a class="dropdown-item" href="#">Mark as unread</a></div>
                               </div>
                             </div>
                           </div>
@@ -429,7 +374,7 @@
                               <div class="dropdown notification-dropdown"><button class="btn fs-10 btn-sm dropdown-toggle dropdown-caret-none transition-none" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><svg class="svg-inline--fa fa-ellipsis fs-10 text-body" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="ellipsis" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
                                     <path fill="currentColor" d="M8 256a56 56 0 1 1 112 0A56 56 0 1 1 8 256zm160 0a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm216-56a56 56 0 1 1 0 112 56 56 0 1 1 0-112z"></path>
                                   </svg><!-- <span class="fas fa-ellipsis-h fs-10 text-body"></span> Font Awesome fontawesome.com --></button>
-                                <div class="dropdown-menu py-2"><a class="dropdown-item" href="https://prium.github.io/phoenix/v1.23.0/index.html#!">Mark as unread</a></div>
+                                <div class="dropdown-menu py-2"><a class="dropdown-item" href="#">Mark as unread</a></div>
                               </div>
                             </div>
                           </div>
@@ -448,7 +393,7 @@
                               <div class="dropdown notification-dropdown"><button class="btn fs-10 btn-sm dropdown-toggle dropdown-caret-none transition-none" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><svg class="svg-inline--fa fa-ellipsis fs-10 text-body" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="ellipsis" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
                                     <path fill="currentColor" d="M8 256a56 56 0 1 1 112 0A56 56 0 1 1 8 256zm160 0a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm216-56a56 56 0 1 1 0 112 56 56 0 1 1 0-112z"></path>
                                   </svg><!-- <span class="fas fa-ellipsis-h fs-10 text-body"></span> Font Awesome fontawesome.com --></button>
-                                <div class="dropdown-menu py-2"><a class="dropdown-item" href="https://prium.github.io/phoenix/v1.23.0/index.html#!">Mark as unread</a></div>
+                                <div class="dropdown-menu py-2"><a class="dropdown-item" href="#">Mark as unread</a></div>
                               </div>
                             </div>
                           </div>
@@ -467,7 +412,7 @@
                               <div class="dropdown notification-dropdown"><button class="btn fs-10 btn-sm dropdown-toggle dropdown-caret-none transition-none" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><svg class="svg-inline--fa fa-ellipsis fs-10 text-body" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="ellipsis" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
                                     <path fill="currentColor" d="M8 256a56 56 0 1 1 112 0A56 56 0 1 1 8 256zm160 0a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm216-56a56 56 0 1 1 0 112 56 56 0 1 1 0-112z"></path>
                                   </svg><!-- <span class="fas fa-ellipsis-h fs-10 text-body"></span> Font Awesome fontawesome.com --></button>
-                                <div class="dropdown-menu py-2"><a class="dropdown-item" href="https://prium.github.io/phoenix/v1.23.0/index.html#!">Mark as unread</a></div>
+                                <div class="dropdown-menu py-2"><a class="dropdown-item" href="#">Mark as unread</a></div>
                               </div>
                             </div>
                           </div>
@@ -486,7 +431,7 @@
                               <div class="dropdown notification-dropdown"><button class="btn fs-10 btn-sm dropdown-toggle dropdown-caret-none transition-none" type="button" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><svg class="svg-inline--fa fa-ellipsis fs-10 text-body" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="ellipsis" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
                                     <path fill="currentColor" d="M8 256a56 56 0 1 1 112 0A56 56 0 1 1 8 256zm160 0a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm216-56a56 56 0 1 1 0 112 56 56 0 1 1 0-112z"></path>
                                   </svg><!-- <span class="fas fa-ellipsis-h fs-10 text-body"></span> Font Awesome fontawesome.com --></button>
-                                <div class="dropdown-menu py-2"><a class="dropdown-item" href="https://prium.github.io/phoenix/v1.23.0/index.html#!">Mark as unread</a></div>
+                                <div class="dropdown-menu py-2"><a class="dropdown-item" href="#">Mark as unread</a></div>
                               </div>
                             </div>
                           </div>
@@ -526,46 +471,46 @@
           <div class="card bg-body-emphasis position-relative border-0">
             <div class="card-body pt-3 px-3 pb-0 overflow-auto scrollbar" style="height: 20rem;">
               <div class="row text-center align-items-center gx-0 gy-0">
-                <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="https://prium.github.io/phoenix/v1.23.0/index.html#!"><img src="{{ asset('phoenix/media/behance.webp')}}" alt="" width="30">
+                <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#"><img src="{{ asset('phoenix/media/behance.webp')}}" alt="" width="30">
                     <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Behance</p>
                   </a></div>
-                <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="https://prium.github.io/phoenix/v1.23.0/index.html#!"><img src="{{ asset('phoenix/media/google-cloud.webp')}}" alt="" width="30">
+                <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#"><img src="{{ asset('phoenix/media/google-cloud.webp')}}" alt="" width="30">
                     <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Cloud</p>
                   </a></div>
-                <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="https://prium.github.io/phoenix/v1.23.0/index.html#!"><img src="{{ asset('phoenix/media/slack.webp')}}" alt="" width="30">
+                <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#"><img src="{{ asset('phoenix/media/slack.webp')}}" alt="" width="30">
                     <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Slack</p>
                   </a></div>
-                <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="https://prium.github.io/phoenix/v1.23.0/index.html#!"><img src="{{ asset('phoenix/media/gitlab.webp')}}" alt="" width="30">
+                <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#"><img src="{{ asset('phoenix/media/gitlab.webp')}}" alt="" width="30">
                     <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Gitlab</p>
                   </a></div>
-                <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="https://prium.github.io/phoenix/v1.23.0/index.html#!"><img src="{{ asset('phoenix/media/bitbucket.webp')}}" alt="" width="30">
+                <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#"><img src="{{ asset('phoenix/media/bitbucket.webp')}}" alt="" width="30">
                     <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">BitBucket</p>
                   </a></div>
-                <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="https://prium.github.io/phoenix/v1.23.0/index.html#!"><img src="{{ asset('phoenix/media/google-drive.webp')}}" alt="" width="30">
+                <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#"><img src="{{ asset('phoenix/media/google-drive.webp')}}" alt="" width="30">
                     <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Drive</p>
                   </a></div>
-                <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="https://prium.github.io/phoenix/v1.23.0/index.html#!"><img src="{{ asset('phoenix/media/trello.webp')}}" alt="" width="30">
+                <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#"><img src="{{ asset('phoenix/media/trello.webp')}}" alt="" width="30">
                     <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Trello</p>
                   </a></div>
-                <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="https://prium.github.io/phoenix/v1.23.0/index.html#!"><img src="{{ asset('phoenix/media/figma.webp')}}" alt="" width="20">
+                <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#"><img src="{{ asset('phoenix/media/figma.webp')}}" alt="" width="20">
                     <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Figma</p>
                   </a></div>
-                <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="https://prium.github.io/phoenix/v1.23.0/index.html#!"><img src="{{ asset('phoenix/media/twitter.webp')}}" alt="" width="30">
+                <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#"><img src="{{ asset('phoenix/media/twitter.webp')}}" alt="" width="30">
                     <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Twitter</p>
                   </a></div>
-                <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="https://prium.github.io/phoenix/v1.23.0/index.html#!"><img src="{{ asset('phoenix/media/pinterest.webp')}}" alt="" width="30">
+                <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#"><img src="{{ asset('phoenix/media/pinterest.webp')}}" alt="" width="30">
                     <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Pinterest</p>
                   </a></div>
-                <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="https://prium.github.io/phoenix/v1.23.0/index.html#!"><img src="{{ asset('phoenix/media/ln.webp')}}" alt="" width="30">
+                <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#"><img src="{{ asset('phoenix/media/ln.webp')}}" alt="" width="30">
                     <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Linkedin</p>
                   </a></div>
-                <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="https://prium.github.io/phoenix/v1.23.0/index.html#!"><img src="{{ asset('phoenix/media/google-maps.webp')}}" alt="" width="30">
+                <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#"><img src="{{ asset('phoenix/media/google-maps.webp')}}" alt="" width="30">
                     <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Maps</p>
                   </a></div>
-                <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="https://prium.github.io/phoenix/v1.23.0/index.html#!"><img src="{{ asset('phoenix/media/google-photos.webp')}}" alt="" width="30">
+                <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#"><img src="{{ asset('phoenix/media/google-photos.webp')}}" alt="" width="30">
                     <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Photos</p>
                   </a></div>
-                <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="https://prium.github.io/phoenix/v1.23.0/index.html#!"><img src="{{ asset('phoenix/media/spotify.webp')}}" alt="" width="30">
+                <div class="col-4"><a class="d-block bg-body-secondary-hover p-2 rounded-3 text-center text-decoration-none mb-3" href="#"><img src="{{ asset('phoenix/media/spotify.webp')}}" alt="" width="30">
                     <p class="mb-0 text-body-emphasis text-truncate fs-10 mt-1 pt-1">Spotify</p>
                   </a></div>
               </div>
@@ -573,7 +518,7 @@
           </div>
         </div>
       </li>
-      <li class="nav-item dropdown"><a class="nav-link lh-1 pe-0" id="navbarDropdownUser" href="https://prium.github.io/phoenix/v1.23.0/index.html#!" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false">
+      <li class="nav-item dropdown"><a class="nav-link lh-1 pe-0" id="navbarDropdownUser" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false">
           <div class="avatar avatar-l ">
             <img class="rounded-circle " src="{{ asset('phoenix/media/57.webp')}}" alt="">
           </div>
@@ -591,28 +536,28 @@
             </div>
             <div class="overflow-auto scrollbar" style="height: 10rem;">
               <ul class="nav d-flex flex-column mb-2 pb-1">
-                <li class="nav-item"><a class="nav-link px-3 d-block" href="https://prium.github.io/phoenix/v1.23.0/index.html#!"> <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user me-2 text-body align-bottom">
+                <li class="nav-item"><a class="nav-link px-3 d-block" href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user me-2 text-body align-bottom">
                       <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
                       <circle cx="12" cy="7" r="4"></circle>
                     </svg><span>Profile</span></a></li>
-                <li class="nav-item"><a class="nav-link px-3 d-block" href="https://prium.github.io/phoenix/v1.23.0/index.html#!"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-pie-chart me-2 text-body align-bottom">
+                <li class="nav-item"><a class="nav-link px-3 d-block" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-pie-chart me-2 text-body align-bottom">
                       <path d="M21.21 15.89A10 10 0 1 1 8 2.83"></path>
                       <path d="M22 12A10 10 0 0 0 12 2v10z"></path>
                     </svg>Dashboard</a></li>
-                <li class="nav-item"><a class="nav-link px-3 d-block" href="https://prium.github.io/phoenix/v1.23.0/index.html#!"> <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-lock me-2 text-body align-bottom">
+                <li class="nav-item"><a class="nav-link px-3 d-block" href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-lock me-2 text-body align-bottom">
                       <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
                       <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
                     </svg>Posts &amp; Activity</a></li>
-                <li class="nav-item"><a class="nav-link px-3 d-block" href="https://prium.github.io/phoenix/v1.23.0/index.html#!"> <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-settings me-2 text-body align-bottom">
+                <li class="nav-item"><a class="nav-link px-3 d-block" href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-settings me-2 text-body align-bottom">
                       <circle cx="12" cy="12" r="3"></circle>
                       <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
                     </svg>Settings &amp; Privacy </a></li>
-                <li class="nav-item"><a class="nav-link px-3 d-block" href="https://prium.github.io/phoenix/v1.23.0/index.html#!"> <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-help-circle me-2 text-body align-bottom">
+                <li class="nav-item"><a class="nav-link px-3 d-block" href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-help-circle me-2 text-body align-bottom">
                       <circle cx="12" cy="12" r="10"></circle>
                       <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
                       <line x1="12" y1="17" x2="12.01" y2="17"></line>
                     </svg>Help Center</a></li>
-                <li class="nav-item"><a class="nav-link px-3 d-block" href="https://prium.github.io/phoenix/v1.23.0/index.html#!"> <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-globe me-2 text-body align-bottom">
+                <li class="nav-item"><a class="nav-link px-3 d-block" href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-globe me-2 text-body align-bottom">
                       <circle cx="12" cy="12" r="10"></circle>
                       <line x1="2" y1="12" x2="22" y2="12"></line>
                       <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
@@ -621,7 +566,7 @@
             </div>
             <div class="card-footer p-0 border-top border-translucent">
               <ul class="nav d-flex flex-column my-3">
-                <li class="nav-item"><a class="nav-link px-3 d-block" href="https://prium.github.io/phoenix/v1.23.0/index.html#!"> <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user-plus me-2 text-body align-bottom">
+                <li class="nav-item"><a class="nav-link px-3 d-block" href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user-plus me-2 text-body align-bottom">
                       <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
                       <circle cx="8.5" cy="7" r="4"></circle>
                       <line x1="20" y1="8" x2="20" y2="14"></line>
@@ -629,12 +574,19 @@
                     </svg>Add another account</a></li>
               </ul>
               <hr>
-              <div class="px-3"> <a class="btn btn-phoenix-secondary d-flex flex-center w-100" href="https://prium.github.io/phoenix/v1.23.0/index.html#!"> <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-log-out me-2">
+              <div class="px-3">
+                <a class="btn btn-phoenix-secondary d-flex flex-center w-100" href="#" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-log-out me-2">
                     <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
                     <polyline points="16 17 21 12 16 7"></polyline>
                     <line x1="21" y1="12" x2="9" y2="12"></line>
-                  </svg>Sign out</a></div>
-              <div class="my-2 text-center fw-bold fs-10 text-body-quaternary"><a class="text-body-quaternary me-1" href="https://prium.github.io/phoenix/v1.23.0/index.html#!">Privacy policy</a>•<a class="text-body-quaternary mx-1" href="https://prium.github.io/phoenix/v1.23.0/index.html#!">Terms</a>•<a class="text-body-quaternary ms-1" href="https://prium.github.io/phoenix/v1.23.0/index.html#!">Cookies</a></div>
+                  </svg>Sign out
+                </a>
+                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                  @csrf
+                </form>
+              </div>
+              <div class="my-2 text-center fw-bold fs-10 text-body-quaternary"><a class="text-body-quaternary me-1" href="#">Privacy policy</a>•<a class="text-body-quaternary mx-1" href="#">Terms</a>•<a class="text-body-quaternary ms-1" href="#">Cookies</a></div>
             </div>
           </div>
         </div>
@@ -642,3 +594,36 @@
     </ul>
   </div>
 </nav>
+
+
+@push('scripts')
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.module-link').forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+
+        document.querySelectorAll('.module-link').forEach(el => el.classList.remove('active'));
+        this.classList.add('active');
+
+        const module = this.dataset.module;
+
+        fetch(`/dashboard/module/${module}`)
+          .then(response => response.text())
+          .then(html => {
+            const container = document.getElementById('main-container');
+            if (container) {
+              container.innerHTML = html;
+            } else {
+              console.error("No se encontró el contenedor principal.");
+            }
+          })
+          .catch(error => {
+            console.error(error);
+            document.getElementById('main-container').innerHTML = '<div class="alert alert-danger">Error al cargar el módulo</div>';
+          });
+      });
+    });
+  });
+</script>
+@endpush

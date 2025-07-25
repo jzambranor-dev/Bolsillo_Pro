@@ -44,6 +44,6 @@ class LoginController extends Controller
         $request->session()->invalidate(); // Invalida la sesión actual
         $request->session()->regenerateToken(); // Regenera el token CSRF para seguridad
 
-        return response()->json(['message' => 'Logout exitoso']);
+        return redirect()->route('login'); // Redirige al login
     }
 }
