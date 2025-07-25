@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./bolsillo_pro/resources/phoenix/media/logos/logo_bolsilloseguro1.png" alt="Bolsillo Pro Logo" width="200"/>
+  <img src="./bolsillo_pro/public/phoenix/media/logos/logo_bolsilloseguro1.png" alt="Bolsillo Pro Logo" width="200"/>
 </p>
 
 # 💰 Bolsillo Pro
