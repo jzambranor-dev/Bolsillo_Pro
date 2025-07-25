@@ -18,6 +18,7 @@ class DashboardController extends Controller
     {
         $moduleMap = [
             'index'        => 'components.modules.index',
+            'get-users'  => 'components.modules.users.get-users',
             'create-user'  => 'components.modules.users.create-user',
             'edit-user'    => 'components.modules.users.edit-user',
             'reportes'     => 'components.modules.reports.index',

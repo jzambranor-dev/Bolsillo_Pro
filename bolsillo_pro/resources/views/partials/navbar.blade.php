@@ -1,3 +1,4 @@
+<!-- Menu horizontal y vertical -->
 <nav class="navbar navbar-vertical navbar-expand-lg" data-navbar-appearance="darker">
   <div class="navbar-collapse collapse" id="navbarVerticalCollapse">
     <!-- scrollbar removed-->
@@ -6,14 +7,14 @@
         <li class="nav-item">
           <!-- parent pages-->
           <div class="nav-item-wrapper">
-            <a class="nav-link label-1 module-link" href="#" role="button" data-module="create-user">
+            <a class="nav-link label-1 module-link" href="#" role="button" data-module="get-users">
               <div class="d-flex align-items-center">
-                <span class="nav-link-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-pie-chart">
-                    <path d="M21.21 15.89A10 10 0 1 1 8 2.83"></path>
-                    <path d="M22 12A10 10 0 0 0 12 2v10z"></path>
-                  </svg>
-                </span>
+                <span class="nav-link-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-users">
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="9" cy="7" r="4"></circle>
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                  </svg></span>
                 <span class="nav-link-text">Administrar Usuarios</span>
               </div>
             </a>
@@ -40,7 +41,7 @@
           </span>
         </span>
       </button>
-      <a class="navbar-brand me-1 me-sm-3" href="https://prium.github.io/phoenix/v1.23.0/index.html">
+      <a class="navbar-brand me-1 me-sm-3" href="{{ route('dashboard') }}">
         <div class="d-flex align-items-center">
           <div class="d-flex align-items-center">
             <img src="{{ asset('phoenix/media/logo.png')}}" alt="phoenix" width="27">
@@ -264,29 +265,38 @@
     <ul class="navbar-nav navbar-nav-icons flex-row">
       <li class="nav-item">
         <div class="theme-control-toggle fa-icon-wait px-2">
-          <input class="form-check-input ms-0 theme-control-toggle-input" type="checkbox" data-theme-control="phoenixTheme" value="dark" id="themeControlToggle">
-          <label class="mb-0 theme-control-toggle-label theme-control-toggle-light" for="themeControlToggle" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Switch theme" style="height:32px;width:32px;">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon icon">
-              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-            </svg>
+
+          <input class="form-check-input ms-0 theme-control-toggle-input"
+            type="checkbox"
+            data-theme-control="phoenixTheme"
+            value="dark"
+            id="themeControlToggle">
+
+          {{-- Tema claro: luna --}}
+          <label class="mb-0 theme-control-toggle-label theme-control-toggle-light"
+            for="themeControlToggle"
+            data-bs-toggle="tooltip"
+            data-bs-placement="left"
+            data-bs-title="Modo oscuro"
+            style="height:32px;width:32px;">
+            <i class="fas fa-moon fa-lg"></i>
           </label>
-          <label class="mb-0 theme-control-toggle-label theme-control-toggle-dark" for="themeControlToggle" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Switch theme" style="height:32px;width:32px;">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun icon">
-              <circle cx="12" cy="12" r="5"></circle>
-              <line x1="12" y1="1" x2="12" y2="3"></line>
-              <line x1="12" y1="21" x2="12" y2="23"></line>
-              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-              <line x1="1" y1="12" x2="3" y2="12"></line>
-              <line x1="21" y1="12" x2="23" y2="12"></line>
-              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-            </svg>
+
+          {{-- Tema oscuro: sol --}}
+          <label class="mb-0 theme-control-toggle-label theme-control-toggle-dark"
+            for="themeControlToggle"
+            data-bs-toggle="tooltip"
+            data-bs-placement="left"
+            data-bs-title="Modo claro"
+            style="height:32px;width:32px;">
+            <i class="fas fa-sun fa-lg"></i>
           </label>
+
         </div>
       </li>
+
       <li class="nav-item d-lg-none">
-        <a class="nav-link" href="https://prium.github.io/phoenix/v1.23.0/index.html#" data-bs-toggle="modal" data-bs-target="#searchBoxModal"><span class="d-block" style="height:20px;width:20px;">
+        <a class="nav-link" href="##" data-bs-toggle="modal" data-bs-target="#searchBoxModal"><span class="d-block" style="height:20px;width:20px;">
             <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search" style="height:19px;width:19px;margin-bottom: 2px;">
               <circle cx="11" cy="11" r="8"></circle>
               <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
@@ -295,7 +305,7 @@
         </a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link" href="https://prium.github.io/phoenix/v1.23.0/index.html#" style="min-width: 2.25rem" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-bs-auto-close="outside"><span class="d-block" style="height:20px;width:20px;"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bell" style="height:20px;width:20px;">
+        <a class="nav-link" href="##" style="min-width: 2.25rem" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-bs-auto-close="outside"><span class="d-block" style="height:20px;width:20px;"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bell" style="height:20px;width:20px;">
               <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
               <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
             </svg>
@@ -456,7 +466,7 @@
         </div>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link" id="navbarDropdownNindeDots" href="https://prium.github.io/phoenix/v1.23.0/index.html#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" data-bs-auto-close="outside" aria-expanded="false"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <a class="nav-link" id="navbarDropdownNindeDots" href="##" role="button" data-bs-toggle="dropdown" aria-haspopup="true" data-bs-auto-close="outside" aria-expanded="false"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="2" cy="2" r="2" fill="currentColor"></circle>
             <circle cx="2" cy="8" r="2" fill="currentColor"></circle>
             <circle cx="2" cy="14" r="2" fill="currentColor"></circle>
