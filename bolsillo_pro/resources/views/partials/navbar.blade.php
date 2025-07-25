@@ -540,7 +540,7 @@
                 <div class="avatar avatar-xl ">
                   <img class="rounded-circle " src="{{ asset('phoenix/media/57(1).webp')}}" alt="">
                 </div>
-                <h6 class="mt-2 text-body-emphasis">Jerry Seinfield</h6>
+                <h6 class="mt-2 text-body-emphasis">{{ Auth::user()->name }}</h6>
               </div>
               <div class="mb-3 mx-3"><input class="form-control form-control-sm" id="statusUpdateInput" type="text" placeholder="Update your status"></div>
             </div>
