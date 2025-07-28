@@ -46,4 +46,8 @@ class LoginController extends Controller
 
         return redirect()->route('login'); // Redirige al login
     }
+
+    public function dashboard(){
+        return view('dashboard'); // Retorna la vista del dashboard
+    }
 }

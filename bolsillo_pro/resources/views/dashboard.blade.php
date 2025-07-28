@@ -5,7 +5,7 @@
 @section('content')
 <div class="content">
   <div class="main-container" id="main-container">
-    @include($moduleComponent)
+
   </div>
 
 @if (auth()->check() && request()->is('dashboard'))

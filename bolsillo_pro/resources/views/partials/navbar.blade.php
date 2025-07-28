@@ -606,34 +606,3 @@
 </nav>
 
 
-@push('scripts')
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    document.querySelectorAll('.module-link').forEach(link => {
-      link.addEventListener('click', function(e) {
-        e.preventDefault();
-
-        document.querySelectorAll('.module-link').forEach(el => el.classList.remove('active'));
-        this.classList.add('active');
-
-        const module = this.dataset.module;
-
-        fetch(`/dashboard/module/${module}`)
-          .then(response => response.text())
-          .then(html => {
-            const container = document.getElementById('main-container');
-            if (container) {
-              container.innerHTML = html;
-            } else {
-              console.error("No se encontró el contenedor principal.");
-            }
-          })
-          .catch(error => {
-            console.error(error);
-            document.getElementById('main-container').innerHTML = '<div class="alert alert-danger">Error al cargar el módulo</div>';
-          });
-      });
-    });
-  });
-</script>
-@endpush
